@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+  <style>
+
+body {background-color: black;}
+    
+  * { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #FBB2E3;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+  border: 3px solid #340079;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+    .title-portafolio{
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+.sub-title{
+  font-size: italic;
+  color: #fff;
+  text-decoration: underline;
+margin: 15px auto;
+
+}
+
+    .footer{
+      margin-top: 200px;
+background: black ;
+padding: 3em 0em;
+ position: relative;
+            width: 100%;
+      height: 100px;
+      opacity: 1;
+color: #fff;
+        margin-top: 200px;
+      background: url(Bolillos.png); 
+padding: 3em 0em;
+ position: relative;
+            width: 100%;
+      height: 225px;
+opacity: 1;
+
+    }
+
+    .social-icons li{
+      list-style: none;
+      display: inline-block;
+margin-right: 8px;
+    }
+
+    .wave{
+      position: absolute;
+      top: -100px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: url("bienvenidos.png") #BDE3FD;
+      background-size: 1000px 100px;
+    }
+    .wave#wave1 {
+      z-index: 1000;
+      opacity: 1;
+      bottom: 0;
+      animation: animateWaves 4s linear infinite;
+      background: url("");
+    }
+    .wave#wave2 {
+      z-index: 999;
+      opacity: 0.8;
+      bottom: 10px;
+      animation: animate 4s linear infinite !important;
+     
+    }
+    .wave#wave3 {
+color: white;
+
+      z-index: 1000;
+      opacity: 0.0;
+      bottom: 15px;
+      animation: animateWaves 3s linear infinite;
+      
+    }
+    .wave#wave4 {
+      z-index: 999;
+      opacity: 0.0;
+      bottom: 20px;
+      animation: animate 3s linear infinite;
+    }
+    @keyframes animateWaves {
+      0% {
+        background-position-x: 1000px;
+      }
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+    @keyframes animate {
+      0% {
+        background-position-x: -1000px;
+      }
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+
+
+    
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-4 mb-5 offset-md-4">
+      <img src="Lolcinpena.png" class="img-fluid foto-perfil" data-aos="flip-up" data-aos-duration="1000">
+    </div>
+      <div class="col-md-12 text-center">
+      <h1 style="color: #fff;">Dango</h1>
+<h3 style="color: #fff;">mi galería</h3> 
+    </div>
+  </div>
+</div>
+    
+  <div class="row">
+    <div class="col-md-12 text-center">
+<h2 style="background-color: white;"> Algunos de mis dibujos </h2>
+      
+      <div class="grid">
+  <div class="grid-sizer"></div>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Dcita.png">
+    <img src="Dcita.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+<a data-fancybox="gallery" href="Lolcin.png">
+    <img src="Lolcin.png" />
+  </div>
+      </a> 
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Ojito.png">
+    <img src="Ojito.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Djcitoone.png">
+    <img src="Djcitoone.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Lumin.png">
+    <img src="Lumin.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="videotogif_2024.01.23_09.00.45.gif">
+    <img src="videotogif_2024.01.23_09.00.45.gif" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="D2one.png">
+    <img src="D2one.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Miriamcin.png">
+    <img src="Miriamcin.png" />
+  </div>
+      </a>
+  <div class="grid-item">
+    <a data-fancybox="gallery" href="Joelcinone.png">
+    <img src="Joelcinone.png" />
+  </div>
+      </a>
+ <div class="grid-item">
+    <a data-fancybox="gallery" href="Xdxd.png">
+    <img src="Xdxd.png" />
+  </div>
+      </a>
+     <div class="grid-item">
+    <a data-fancybox="gallery" href="videotogif_2024.04.16_09.48.33.gif">
+    <img src="videotogif_2024.04.16_09.48.33.gif" />
+  </div>
+      </a>  
+        <div class="grid-item">
+    <a data-fancybox="gallery" href="Lolcinpena.png">
+    <img src="Lolcinpena.png" />
+  </div>
+      </a>
+        <div class="grid-item">
+    <a data-fancybox="gallery" href="Ojocarrito.jpg">
+    <img src="Ojocarrito.jpg" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="Xdjoel.png">
+    <img src="Xdjoel.png" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="Lolcinawawuwu.png">
+    <img src="Lolcinawawuwu.png" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="E4Xxd.png">
+    <img src="E4Xxd.png" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="Comicgod.png">
+    <img src="Comicgod.png" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="IMG-20231206-WA0114.jpg">
+    <img src="IMG-20231206-WA0114.jpg" />
+  </div>
+      </a>
+         <div class="grid-item">
+    <a data-fancybox="gallery" href="Shadowwizard.png">
+    <img src="Shadowwizard.png" />
+  </div>
+      </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="footer">
+    <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+    </div>
+    
+<div class="container">
+  <div class="row">
+<div class="col-md-5" style="background-color: black;">Mis redes </div>
+    <div class="col-md-3" style="background-color: black;">Datos</div>
+     <span class="border-bf"></span>
+    <div class="col-md-4" style="background-color: black;">Informacion</div>
+    <a href="">
+    <i class="fab fa-lg fa-facebook"></i>
+    </a>
+    <li>
+    </li>
+     <a href="https://www.instagram.com/dango_300?igsh=dGhkN2lqaHpucnh0" target="_blank">
+     <i class="fab fa-instagram-square"></i>
+
+       <div class="container">
+         <div class="row">
+
+           <div class="col-md-5 text-center mt-5 border-bottom">
+             <span class="title-footer">Contactame</span>
+             <form>
+               <div class="form-group row mb-3">
+             
+<label class="col-sm-3 col-from-label"> Nombre </label>
+               <input type="text" name="nombre" class="input-form"
+               placeholder="indica tu nombre">
+                 <div class="form-group row mb-3">
+               <label class="col-sm-3 col-from-label">Correo</label>
+               <input type="text" name="correo" class="input-form"
+               placeholder="indica tu correo">
+               </div>
+               </div>
+               <button class="btn btn-contacto">
+                  <i class="fab fa-sm fa-paper-plane"></i> Enviar
+               </button>
+                 
+                 <span class="border-bf"></span>
+                 <style>
+
+.border-bf{
+width: 50%;
+  height: 4px;
+  background: #fff;
+  display: none; /* oculta un elemnto */
+  margin: 30 px auto 0px;
+  opacity: 0.3;
+}
+                   @media only screen and (max-width: 600px) {}
+.border-bottom{
+  border-bottom: 3px solide #ffff;
+}
+.title-footer{
+  color: #fff;
+  margin-bottom: 45px;
+  font-size: 1.4em;
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 3px solid blue;
+}                   
+.input-form{
+  border: 1px #340079!;
+  color: red;
+border-radius: 5px;
+
+}
+.btn-contacto{
+  background: #fff;
+border-radius: 10px;
+  font-size: 1.1em;
+color: black;
+}
+.btn-contacto:hover{
+background: blue;
+}
+.btn-contacto i{
+color: #fff;
+
+  margin-right: 8px;
+}
+.foto-perfil{
+  border-radius: 50%;
+  border: 6px solid #340079;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.46);
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.46);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.46);
+}
+</style>
+
+
+  </div>
+  </div>
+  </div>
+     
+       
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+  <script type="text/Javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/Javascript" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script type="text/Javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  
+  
+  <script type="text/Javascript"> var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});   
+  
+  </script>
+<script>
+  AOS.init();
+</script>
+       
+</body>
+
+</html>
